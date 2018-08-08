@@ -79,7 +79,6 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    console.log(123)
     this.setData({ shops: [], pageIndex: 0, hasMore: true })
     // this.loadMore()  
     // 这样定义之后可以可以使 loadMore 数据加载完毕之后马上进入下一个.then  
